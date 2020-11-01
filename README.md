@@ -4,7 +4,7 @@ UTA Bootcamp project that shows city's weather and its 5 day forecast.
 ## How to Use
 Simply type name of the city and click "search". 
 You can also toggle back and forth between seached city by clicking city name under the clear button.
----
+
 ![](/assets/images/denver.jpg)
 ---
 ![](/assets/images/dallas.jpg)
