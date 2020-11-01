@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="./assets/css/style.css">
+  
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <main class="wrapper">  
+    <!-- skewed header -->
+    <header class="header grid0">
+    <div class="title">
+        <h1>Weather Dashboard</h1>
+    </div>
+    </header>
+
+    <!-- Search form -->
+    <div class="search-content grid1"><!-- grid 1 -->
+        <div class="search-form">
+            <h3>Search for a City:</h3>
+        </div>
+        <div id="search" class="search">
+            <input type="text" class="form-control" id="city-input" placeholder="Enter city name"/>
+            <button class="btn" id="search-button">
+                <i class="fa fa-search"></i>
+            </button>
+            <button class="clear-btn" type="button" id="clear-btn" value="reset"><span></span>Clear History</button>
+        </div>
+        <!-- list of previous cities -->
+        <div class="history" id="history">
+            <div class="list-group" id="cityList"></div>   
+        </div>
+    </div> <!-- grid 1 -->
+     <!-- Search form closed-->
+
+    <!-- Current weather display -->
+    <div id="currentWeather" class="current-weather grid2">
+        <h1>
+            Search for a city to find out weather!
+        </h1>
+    </div>
+
+    <!-- 5 day Forecast display -->
+    <section class="forecast-display grid3">
+    <div class="forecast"></div>
+    <div class="forecast"></div>
+    <div class="forecast"></div>
+    <div class="forecast"></div>
+    <div class="forecast"></div>
+    </section>
+    </main>  
+    <script src="./assets/js/script.js"></script>
+    <!-- <script src="test.js"></script> -->
+</body>
+</html>
+
+
+
