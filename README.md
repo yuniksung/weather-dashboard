@@ -20,8 +20,6 @@ You can also toggle back and forth between seached city by clicking city name un
 ![](/assets/images/dallas.jpg)
 ---
 
-
->>>>>>> 14249dfa7e002ef6090602a964b026d001162867
 ## Built With
 * HTML
 * CSS
