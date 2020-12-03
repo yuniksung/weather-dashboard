@@ -3,8 +3,8 @@ UTA Bootcamp project that shows city's weather and its 5 day forecast.
 
 ## How to Use
 Simply type name of the city and click "search". 
-<<<<<<< HEAD
-You can also toggle back and forth between seached city(s) by clicking city text under the clear button.
+You can also toggle back and forth between seached city(s) by clicking city text under the clear button
+
 ---
 ![](/assets/images/weather.jpg)
 ---
