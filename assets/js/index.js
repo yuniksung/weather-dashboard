@@ -24,6 +24,10 @@ const getData = () => {
     }).then(displayData);
 }
 
+const displayData = (response) => {
+    console.log(response)
+}
 
 
+btn.addEventListener("click", getInput);
 
