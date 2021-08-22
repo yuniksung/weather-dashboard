@@ -1,0 +1,13 @@
+@import './mixins';
+@import './header';
+@import './aside';
+@import './footer'; 
+@import './main'; 
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
